@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import math
+import numpy as np
 from pathlib import Path
 
 # Set the title and favicon that appear in the Browser's tab bar.
@@ -22,6 +23,8 @@ st.set_page_config(
 browse ur meals n eat for reals
 '''
 
+data = [12, 23, 47, 6, 52, 19]
+print(data)
 
 
 
