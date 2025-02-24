@@ -18,7 +18,7 @@ st.set_page_config(
 browse ur meals n eat for reals 
 '''
 
-data = ["m12", "m23", "m47", "m6", "m52", "m19"]
+data = ["Burrito", "Burger", "Pasta", "Rissotto", "Stir-Fry", "Yiros"]
 
 
 st.write(f"winner winner, {random.choice(data)} for dinner")
