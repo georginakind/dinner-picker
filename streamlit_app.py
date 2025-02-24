@@ -3,10 +3,11 @@ import pandas as pd
 import math
 import numpy as np
 import random
-import plotly as px
+import plotly
+
 from pathlib import Path
 
-# Set the title and favicon that appear in the Browser's tab bar.
+
 st.set_page_config(
     page_title='Dinner Spinner',
     page_icon=':pizza:', # This is an emoji shortcode. Could be a URL too.
@@ -18,9 +19,16 @@ st.set_page_config(
 
 browse ur meals n eat for reals 
 '''
+foodytoody = {"burger": ":hamburger:",
+              "Burrito": ":burrito:",
+              "Tacos": ":taco:",
+              "Fancy callan rice": ":rice:"}
+st.write(foodytoody)
 
-data = ["Burrito", "Burger", "Pasta", "Rissotto", "Stir-Fry", "Yiros"]
+st.write(f"{foodytoody}")
 
+data = ["Burrito", ":hamburger: burgers", "Pasta", "Rissotto", "Stir-Fry", "Yiros"]
+st.write(f"{data}")
 
 st.write(f"winner winner, {random.choice(data)} for dinner")
 
