@@ -22,15 +22,17 @@ browse ur meals n eat for reals
 foodytoody = {"burger": ":hamburger:",
               "Burrito": ":burrito:",
               "Tacos": ":taco:",
-              "Fancy callan rice": ":rice:"}
+              "Fancy callan rice": ":rice:",
+              "Noods n dumps": ":ramen:"}
 st.write(foodytoody)
 
 st.write(f"{foodytoody}")
+st.write(random.choice(foodytoody))
 
 data = ["Burrito", ":hamburger: burgers", "Pasta", "Rissotto", "Stir-Fry", "Yiros"]
 st.write(f"{data}")
 
-st.write(f"winner winner, {random.choice(data)} for dinner")
+st.write(f"winner winner, {random.choice(foodytoody)} for dinner")
 
 
 
